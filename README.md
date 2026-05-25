@@ -1,5 +1,5 @@
  Hi, I’m DEBJYOTI SAHA.
-I'm currently studying B.Tech in Electrical Engineering, in 3rd year. 
+I'm currently studying B.Tech in Electrical Engineering, from IIEST Shibpur. I have completed my last sem in May 2026. 
 I am interested in Control Systems, especially Non-Linear systems. I am interested in applying AI/ML to Electrical engineering.
 
 <!---
