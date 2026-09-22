@@ -116,15 +116,13 @@ Building full-stack engineering prototypes rather than isolated scripts.
 
 <div align="center">
 
-<a href="https://github.com/sahadebjyoti13/InsulinPumpOS">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sahadebjyoti13&repo=InsulinPumpOS&theme=transparent&hide_border=true" alt="InsulinPumpOS">
-</a>
-<a href="https://github.com/sahadebjyoti13/exercise-detection">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sahadebjyoti13&repo=exercise-detection&theme=transparent&hide_border=true" alt="Exercise Detection">
-</a>
-<a href="https://github.com/sahadebjyoti13/plecs_sim">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=sahadebjyoti13&repo=plecs_sim&theme=transparent&hide_border=true" alt="PLECS Simulation">
-</a>
+| Project | Focus | Status |
+|:---|:---|:---:|
+| **[InsulinPumpOS](https://github.com/sahadebjyoti13/InsulinPumpOS)** | Networked closed-loop insulin pump platform, MQTT telemetry, CGM monitoring and supervisory dashboard | 🔬 Research |
+| **[GlucoPilot Mobile](https://github.com/sahadebjyoti13/glucopilot-mobile)** | React Native patient interface for the GlucoPilot system | 🚧 Active |
+| **[Exercise Detection](https://github.com/sahadebjyoti13/exercise-detection)** | Sensor-fusion-based exercise detection and context-aware insulin decision support | 🔬 Research |
+| **[PLECS Simulation](https://github.com/sahadebjyoti13/plecs_sim)** | Power-electronics and Boost converter simulation | ⚡ Engineering |
+| **[ExosPlore](https://github.com/sahadebjyoti13/ExosPlore-)** | Engineering / robotics project work | 🛠️ Development |
 
 </div>
 
@@ -133,14 +131,22 @@ Building full-stack engineering prototypes rather than isolated scripts.
 <div align="center">
 
 ```
-Sensors → Estimation → Context → Control → Actuation
-   ↑          ↓           ↓         ↓          ↓
- CGM       Sensor      Meal /     PID /      Motor
- IMU       Fusion      Exercise    MPC       Pump
-  HR       Models      State       Logic     + Encoder
-   │          │           │          │          │
-   └──────────┴───────────┴──────────┴──────────┘
-                 Networked System
+┌──────────┐     ┌────────────┐     ┌────────────┐
+│  Sensors │ ──▶ │ Estimation │ ──▶ │   Context  │
+└──────────┘     └────────────┘     └────────────┘
+      │                 │                  │
+      │                 ▼                  ▼
+      │          Sensor Fusion       Meal / Exercise
+      │                                   State
+      ▼                                      │
+┌──────────┐     ┌────────────┐              ▼
+│ Feedback │ ◀── │  Control   │ ◀────── Decision
+└──────────┘     └────────────┘
+                       │
+                       ▼
+                  ┌──────────┐
+                  │ Actuator │
+                  └──────────┘
 ```
 
 </div>
@@ -171,12 +177,21 @@ The long-term direction is to make this pipeline increasingly **model-aware, ada
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=sahadebjyoti13&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="165" alt="GitHub stats">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahadebjyoti13&layout=compact&hide_border=true&theme=transparent&langs_count=8" height="165" alt="Top languages">
+**Building in public • Engineering through experiments • Iterating continuously**
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=sahadebjyoti13&theme=transparent&hide_border=true" alt="GitHub streak">
+| Metric | Profile |
+|:---|:---:|
+| Public repositories | **[Explore repositories →](https://github.com/sahadebjyoti13?tab=repositories)** |
+| Contribution history | **[View contribution graph →](https://github.com/sahadebjyoti13)** |
+| Current focus | **Control + AI/ML + Embedded Systems** |
+
+<br/>
+
+<a href="https://github.com/sahadebjyoti13">
+  <img src="https://img.shields.io/badge/GitHub-sahadebjyoti13-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
 
 </div>
 
