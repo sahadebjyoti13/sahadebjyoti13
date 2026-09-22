@@ -200,7 +200,10 @@ That is the thread connecting my earlier power-electronics work with my current 
   <img src="https://img.shields.io/badge/Explore%20my%20repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories">
 </a>
 <a href="mailto:sahadebjyoti13@gmail.com">
-  <img src="https://img.shields.io/badge/Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact">
+  <img src="https://img.shields.io/badge/Email-sahadebjyoti13%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+<a href="https://www.linkedin.com/in/sahadebjyoti13/">
+  <img src="https://img.shields.io/badge/LinkedIn-Debjyoti%20Saha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 
 <br/><br/>
